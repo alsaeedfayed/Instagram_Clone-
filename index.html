@@ -5,12 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./src/css/styles.css">
     <title>Instgram</title>
 </head>
 
 <body>
-
+    <!-- NavBar Start -->
+    <nav class="border-b bg-white w-full p-2">
+        <div class="flex justify-around items-center">
+            <!-- Logo -->
+            <img class="h-14 w-40" src="./src/assets/images/insta.png" alt="logo">
+            <!-- Search -->
+            <div class="text-gray-500 relative hidden md:block">
+                <input class="outline-none border focus:border-gray-400 bg-gray-100 rounded ml-4 px-8  py-1" type="text"
+                    placeholder="search...">
+                <i class="fa fa-search absolute left-0 ml-4 mt-2 pl-2 "></i>
+            </div>
+            <!-- Buttons -->
+            <div class="flex space-x-4">
+                <a class="capitalize  bg-blue-500 text-white inline-block font-semibold px-2 py-1 rounded-sm text-sm"
+                    href="#">log
+                    in</a>
+                <a class="capitalize text-blue-500 text-sm inline-block font-semibold" href="#">sign up</a>
+            </div>
+        </div>
+    </nav>
 </body>
 
 </html>
